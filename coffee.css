@@ -34,11 +34,11 @@ body, html {
     display: flex;
 }
 
-.main-nav nav ul li {
+.nav-links ul li {
     margin-left: 35px;
 }
 
-.main-nav nav ul li a {
+.nav-links ul li a {
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
