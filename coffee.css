@@ -25,3 +25,20 @@ body, html {
     height: 60px;
     margin-top: auto;
 }
+
+.main-nav nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav nav ul li {
+    margin-left: 35px;
+}
+
+.main-nav nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
