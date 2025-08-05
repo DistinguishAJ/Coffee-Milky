@@ -21,6 +21,13 @@ body, html {
     box-sizing: border-box;
 }
 
+.coffee-nav img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
 .logo {
     width: 60px;
     height: 60px;
