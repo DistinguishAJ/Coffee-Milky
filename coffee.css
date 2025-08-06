@@ -1,6 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 #542508, #b0663d
 
+coffee-nav {
+    background-color: #b0663d;
+    overflow: hidden;
+}
+
+.coffee-nav {
+    height: 100vh;
+    background-image: linear-gradient(rgba(187, 185, 185, 0.651), rgba(102, 45, 10, 0.586)), url(./Files/Untitled\ design.png);
+    background-size: cover;
+    flex-direction: column;
+    padding: 2% 6%;
+}
+.coffee-nav img {
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+    position: relative;
+    float: left;
+    padding: auto;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+
+.nav-links ul li {
+    margin-left: 35px;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    float: right;
+    color: rgb(224, 207, 184);
+}
+
+/* 
 body, html {
     font-family: 'Lato', sans-serif;
     background-color: #f5f5f5;
@@ -9,6 +47,7 @@ body, html {
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .coffee-nav{
     height: 100vh;
@@ -50,7 +89,7 @@ body, html {
 }
 
 
-/* 
+
 .main-nav nav ul{
     list-style: none;
     padding: 0;
