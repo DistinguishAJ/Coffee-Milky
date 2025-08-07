@@ -6,9 +6,18 @@ coffee-nav {
     overflow: hidden;
 }
 
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(187, 185, 185, 0.651), rgba(102, 45, 10, 0.586)), url(./Files/cup-6878196_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .coffee-nav {
     height: 100vh;
-    background-image: linear-gradient(rgba(187, 185, 185, 0.651), rgba(102, 45, 10, 0.586)), url(./Files/Untitled\ design.png);
+    background-image: linear-gradient(rgba(187, 185, 185, 0.651), rgba(102, 45, 10, 0.586)), url(./Files/cup-6878196_1920.jpg);
     background-size: cover;
     flex-direction: column;
     padding: 2% 6%;
