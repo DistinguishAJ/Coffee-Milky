@@ -38,6 +38,30 @@ coffee-nav {
     color: rgb(224, 207, 184);
 }
 
+.header-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 600px;
+}
+
+
+.header-content h2 {
+    font-size: 2.5em;
+    font-family: lato;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.2;
+    color: #e9c4ad;
+}
+
+.header-content h2 span {
+    color: #b0663d;
+    display: inline-block;
+    position: relative;
+}
+
 
 
 /* 
