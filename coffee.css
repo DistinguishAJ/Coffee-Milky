@@ -6,23 +6,18 @@ coffee-nav {
     overflow: hidden;
 }
 
-.hero{
+.hero{padding: 2% 6%;
+    height: 100vh;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-image: linear-gradient(rgba(187, 185, 185, 0.651), rgba(102, 45, 10, 0.586)), url(./Files/cup-6878196_1920.jpg);
     background-size: cover;
-    background-position: center;
 }
-.coffee-nav {
-    height: 100vh;
-    background-image: linear-gradient(rgba(187, 185, 185, 0.651), rgba(102, 45, 10, 0.586)), url(./Files/cup-6878196_1920.jpg);
-    background-size: cover;
-    flex-direction: column;
-    padding: 2% 6%;
-}
-.coffee-nav img {
+
+.hero img {
     top: 0;
     left: 0;
     width: 200px;
