@@ -1,0 +1,41 @@
+/* General Body and Font Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #542508;
+    overflow-x: hidden;
+    height: 100%; /* Prevents scrollbars from appearing */
+}
+
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(19, 18, 18, 0.4), rgba(182, 78, 9, 0.4)), url(./Files/cup-6878196_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 6%;
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    width: 200px;
+    height: auto;
+    max-width: 200px;
+    margin: 0 auto;
+    float: left;
+    padding: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
