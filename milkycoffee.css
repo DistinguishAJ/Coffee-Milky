@@ -83,13 +83,13 @@ body, html {
     font-weight: 300px;
 }
 
-    .hero-content h1 {
+.hero-content h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
 .hero-content h1 span {
-    color: #b64e00;
+    color: #f09754;
 }
 
 .hero-content button {
