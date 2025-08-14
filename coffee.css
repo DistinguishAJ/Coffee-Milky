@@ -17,14 +17,13 @@ coffee-nav {
     background-size: cover;
 }
 
-.hero img {
-    top: 0;
-    left: 0;
-    width: 200px;
+.navbar img {
+    width: 150px;
     height: auto;
-    position: relative;
-    float: left;
-    padding: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    z-index: 100;
 }
 
 .nav-links ul {
