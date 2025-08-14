@@ -91,3 +91,13 @@ body, html {
 .hero-content h1 span {
     color: #b64e00;
 }
+
+.hero-content button {
+    background-color: #b64e00;
+    color: #e9c4ad;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
