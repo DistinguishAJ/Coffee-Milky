@@ -119,12 +119,36 @@ body, html {
     color: #fff;
 }
 
-.slider-dots {
+.hero .slider-dots {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
     z-index: 100;
 }
+
+.hero-content .arrow{
+    border-left: 5px solid #f09754;
+    border-bottom: 5px solid #f09754;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translateX(-50%);
+    cursor: pointer;
+    position: relative;
+    margin-top: 150px;
+    background-color: transparent;
+    z-index: 100;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease;
+}
+
+.hero-content .arrow:hover {
+    transform: translateX(-50%) rotate(-45deg) scale(1.1);
+}
+
 
 .dot-active{
     background-color: #f09754;
