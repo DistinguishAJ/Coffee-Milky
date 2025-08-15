@@ -1,10 +1,11 @@
 /* General Body and Font Styling */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body, html {
+    background-color: #f7eae3;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #e9c4ad;
+    color: #b64e00;
     overflow-x: hidden;
     height: 100%; /* Prevents scrollbars from appearing */
 }
@@ -100,4 +101,84 @@ body, html {
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.hero-content button:hover {
+    background-color: #f09754;
+    color: #fff;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    z-index: 100;
+}
+
+.dot-active{
+    background-color: #f09754;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+    border: 2px solid #b64e00;
+    transition: background-color 0.3s ease;
+}
+
+.dot {
+    background-color: #f1e9e4;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+    border: 2px solid #ec9f64;
+    transition: background-color 0.3s ease;
+}
+
+.coffee-section {
+    padding: 50px 0;
+    background-color: #f7eae3;
+    text-align: center;
+    color: #b64e00;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.coffee-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #b64e00;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.coffee-item1 img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.coffee-item1 h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.coffee-item1 p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
 }
