@@ -654,31 +654,42 @@ hr {
 
 .ingredient{
     display: flex;
-    align-items: center;
     gap: 4rem;
-    max-width: 1000px;
-    width: 100%;
+    width: 50%;
     padding: 2rem;
 }
 
 .ingredient-image{
-    flex: 1 1 40%;
+    display: flex;
+    align-items: center;
+}
+
+.ingredient-image img{
+    float: left;
+    height: auto;
+    width: 150%;
+    filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.3));
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    object-fit: cover;
+}
+/*
+.ingredient-image{
+    flex: 1 1 10%;
     text-align: center;
+    display: flex;
 }
 
 .ingredient-image img{
     max-width: 300%;
     height: auto;
     filter: drop-shadow(0 6px 10px rgb(66, 40, 1))
-} 
-
-.ingredient-details{
-    flex: 1 1 60%;
+    transition: transform 0.3s ease;
 }
 
-.ingredient-details h2{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
+
+.ingredient-image img:hover {
+    transform: scale(1.05);
 }
+
+*/
