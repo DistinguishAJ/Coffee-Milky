@@ -667,8 +667,18 @@ hr {
 }
 
 .ingredient-image img{
-    max-width: 500%;
+    max-width: 300%;
     height: auto;
     filter: drop-shadow(0 6px 10px rgb(66, 40, 1))
 } 
 
+.ingredient-details{
+    flex: 1 1 60%;
+}
+
+.ingredient-details h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
