@@ -694,12 +694,47 @@ hr {
 
 */
 
-.Customer-card{
+
+.Customer-card {
     height: 100vh;
-    background-image: linear-gradient(rgba(19, 18, 18, 0.4),  rgba(110, 46, 3, 0.307), url(./Files/Untitled\ design\ \(22\).png));
+    background-image: linear-gradient(rgba(19, 18, 18, 0.4), rgba(110, 46, 3, 0.307)), url(./Files/Untitled\ design\ \(22\).png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.Customer-header h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #e9c4ad;
+    margin-bottom: 20px;
+}
+
+.customer-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.customer-img {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customer-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
