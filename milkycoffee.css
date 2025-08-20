@@ -693,3 +693,13 @@ hr {
 }
 
 */
+
+.Customer-card{
+    height: 100vh;
+    background-image: linear-gradient(rgba(19, 18, 18, 0.4),  rgba(110, 46, 3, 0.307), url(./Files/Untitled\ design\ \(22\).png));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
