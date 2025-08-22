@@ -700,26 +700,27 @@ hr {
     background-image: linear-gradient(rgba(19, 18, 18, 0.4), rgba(110, 46, 3, 0.307)), url(./Files/Untitled\ design\ \(22\).png);
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding: 50px 20px;
+    align-items: center;
 }
 
-.Customer-header h2 {
+.Customer-header h3 {
     font-family: 'Lato', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     color: #e9c4ad;
-    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
 }
 
-.customer-one{
-    display: flex;
+.customer{
+    border: 2px solid #f8c8aa;
+    display: block;
+    float: left;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 50px;
+    box-sizing: border-box;
+    margin: 25px;
 }
 
 .customer-img {
@@ -737,10 +738,11 @@ hr {
     height: 300px;
     background-color: #ec9f64;
     box-shadow: #351904;
-    border-radius: 10px;
-    margin-right: 20px;
     opacity: 0.5;
     border: 2px solid #f8c8aa;
+    box-sizing: border-box;
+    float: left;
+    padding: 30px;
 }
 
 .customer-img img {
