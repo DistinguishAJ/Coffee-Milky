@@ -673,29 +673,9 @@ hr {
     border-radius: 10px;
     object-fit: cover;
 }
-/*
-.ingredient-image{
-    flex: 1 1 10%;
-    text-align: center;
-    display: flex;
-}
-
-.ingredient-image img{
-    max-width: 300%;
-    height: auto;
-    filter: drop-shadow(0 6px 10px rgb(66, 40, 1))
-    transition: transform 0.3s ease;
-}
 
 
-.ingredient-image img:hover {
-    transform: scale(1.05);
-}
-
-*/
-
-
-.Customer-card {
+.Customer-card{
     height: 100vh;
     background-image: linear-gradient(rgba(19, 18, 18, 0.4), rgba(110, 46, 3, 0.307)), url(./Files/Untitled\ design\ \(22\).png);
     background-size: cover;
@@ -720,7 +700,9 @@ hr {
     float: left;
     justify-content: center;
     box-sizing: border-box;
-    margin: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .customer-img {
