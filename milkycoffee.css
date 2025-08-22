@@ -7,7 +7,8 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     color: #b64e00;
     overflow-x: hidden;
-    height: 100%; /* Prevents scrollbars from appearing */
+    overflow-y: auto;
+    height: 100%;
 }
 
 
@@ -695,22 +696,25 @@ hr {
     font-size: 2.5rem;
     font-weight: 700;
     color: #e9c4ad;
-    display: inline-block;
-    text-align: center;
+    position: relative;
+    top: -200px;
+    left: 500px;
 }
 
 .customer{
     border: 3px solid #f8c8aa;
-    float: left;
     box-sizing: border-box;
-    margin: 5px;
+    margin: 15px;
     border-radius: 10px;
     width: 300px;
     height: 300px;
     background-color: #ec9f64;
-    box-shadow: #351904;
     opacity: 0.5;
     padding: 20px;
+    position: relative;
+    top: 150px;
+    right: 150px;
+    align-items: center;
 }
 
 .customer-img {
@@ -719,9 +723,9 @@ hr {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
+    position: relative;
 }
 
 .customer-img img {
@@ -742,7 +746,7 @@ hr {
 
 .Customer-feedback p {
     font-size: 1rem;
-    color: #351904;
+    color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-top: 10px;
@@ -752,7 +756,7 @@ hr {
 .Customer-feedback span {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #351904;
+    color: #b64e00;
     margin-top: 10px;
     font-family: 'Lato', sans-serif;
 }
