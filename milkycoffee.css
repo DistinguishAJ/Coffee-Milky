@@ -760,3 +760,235 @@ hr {
     margin-top: 10px;
     font-family: 'Lato', sans-serif;
 }
+
+.blog {
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #b64e00;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    border: 2px solid #f8c8aa;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.blog-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;    
+    max-width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.blog-image img {
+    max-width: 200%;
+    height: 180px;
+    object-fit: cover;
+    filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.3));
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.blog-image img:hover {
+    transform: scale(1.09);
+}
+
+.blog-text {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.blog-text h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #b64e00;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.blog-text p {
+    font-size: 18px;
+    color: #b64e00;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 10px 0;
+    margin-top: -10px;
+}
+
+.blog-text a {
+    margin-top: auto;
+    text-align: right;
+    font-size: 1rem;
+    color: #b64e00;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.blog-text a:hover {
+    color: #f09754;
+}
+
+.footer {
+    background-color: #632e06;
+    color: #f8c8aa;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.footer-section-about {
+    margin-bottom: 20px;
+}
+
+.footer-section-about h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8c8aa;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.footer-section-about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f8c8aa;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.footer-section-contact {
+    margin-bottom: 20px;
+}
+
+.footer-section-contact h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8c8aa;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.footer-section-contact p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f8c8aa;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.footer-section-social {
+    margin-bottom: 20px;
+}
+
+.footer-section-social h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8c8aa;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.footer-section-social a {
+    color: #f8c8aa;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-section-social a:hover {
+    color: #f09754;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #f8c8aa;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px)
+{
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-content {
+        flex-direction: column;
+    }
+
+    .ingredient {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ingredient-details h2 {
+        font-size: 2rem;
+    }
+
+    .customer {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        position: static;
+        top: 0;
+        right: 0;
+    }
+
+    .Customer-header h3 {
+        font-size: 1.5rem;
+        position: static;
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+}
